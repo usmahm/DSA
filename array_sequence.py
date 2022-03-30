@@ -44,7 +44,7 @@ class Array_seq:
 
     def insert_first(self, x): self.insert_at(0, x)
     def delete_first(self): self.delete_at(0)
-    def insert_last(self, x): self.insert_at(len(self.A) - 1, x)
+    def insert_last(self, x): self.insert_at(len(self.A), x)
     def delete_last(self): self.delete_at(len(self.A) - 1)
 
 
